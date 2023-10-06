@@ -1,7 +1,9 @@
 # Structure-free Graph Condensation (SFGC): From Large-scale Graphs to Condensed Graph-free Data
 
 This is the Pytorch implementation of NeurIPS-23 work: "Structure-free Graph Condensation (SFGC): From Large-scale Graphs to Condensed Graph-free Data".
+
 The overall framework: 
+
 ![Fig_all-6](https://github.com/Amanda-Zheng/SFGC/assets/61812981/156af96a-4709-4f60-9d31-a9d1e1bfbbb0)
 
 
