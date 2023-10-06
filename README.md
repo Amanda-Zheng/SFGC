@@ -65,7 +65,7 @@ For examples:
 Dataset: Citeseer
 
 ```
-python distill_transduct_adj_identity2.py --config configs/config_distill.json --section citeseer-r025
+python distill_transduct_adj_identity2.py --config scripts/configs/config_distill.json --section citeseer-r025
 ```
 
 (4) Training with the small-scale structure free graph data and test on the large-scale graph test set in "scripts/4_script_test.sh":
@@ -75,7 +75,7 @@ For example:
 Dataset: Citeseer
 
 ```
-python test_condg.py --config configs/config_test.json --section citeseer-r025
+python test_condg.py --config scripts/configs/config_test.json --section citeseer-r025
 ```
 
 Please take note of these critical considerations that could impact your results when condensing your own datasets:
