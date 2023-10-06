@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section citeseer-r025
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section citeseer-r05
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section citeseer-r1.0
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section cora-r025
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section cora-r05
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section cora-r1.0
+CUDA_VISIBLE_DEVICES=1 python test_condg.py --config config_test.json --section ogbn-arxiv-r0001
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section ogbn-arxiv-r0005
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section ogbn-arxiv-r001
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section flickr-r0001
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section flickr-r0005
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section flickr-r001
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section reddit-r00005
+CUDA_VISIBLE_DEVICES=0 python test_condg.py --config config_test.json --section reddit-r0001
