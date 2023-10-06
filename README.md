@@ -1,6 +1,9 @@
 # Structure-free Graph Condensation (SFGC): From Large-scale Graphs to Condensed Graph-free Data
 
-This is the Pytorch implementation of NeurIPS-23 work: "Structure-free Graph Condensation (SFGC): From Large-scale Graphs to Condensed Graph-free Data"
+This is the Pytorch implementation of NeurIPS-23 work: "Structure-free Graph Condensation (SFGC): From Large-scale Graphs to Condensed Graph-free Data".
+The overall framework: 
+![Fig_all-6](https://github.com/Amanda-Zheng/SFGC/assets/61812981/156af96a-4709-4f60-9d31-a9d1e1bfbbb0)
+
 
 ### Requirements
 
@@ -73,10 +76,12 @@ Dataset: Citeseer
 python test_condg.py --config config_test.json --section citeseer-r025
 ```
 
-Note that there are some key points might affect your results when run on your own dataset:
+Please take note of these critical considerations that could impact your results when condensing your own datasets:
 
-1. Due to the learning behavior imitation schema, your buffer files with different initializations could also affect the condensation process, please closely monitor the condensation loss to ensure the well parameter trajectory imitation.
-2. The GNTK evaluation part involves the validation graph sampling part to enable memory saving, fixed full validation graph is also allowed if enough gpu memory.
+1. It's important to recognize that your buffer files, initialized differently, can potentially influence the condensation process due to the learning behavior imitation schema. To ensure an accurate trajectory imitation with well-parameterized results, please diligently monitor the condensation loss.
+
+2. The GNTK evaluation section incorporates a validation graph sampling approach to conserve memory. Alternatively, you have the option to employ a fixed full validation graph if your memory resources are sufficient.
+
 
 Welcome to kindly cite our work and discuss with xin.zheng@monash.edu:
 ```
