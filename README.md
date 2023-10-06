@@ -80,7 +80,7 @@ python test_condg.py --config config_test.json --section citeseer-r025
 
 Please take note of these critical considerations that could impact your results when condensing your own datasets:
 
-1. It's important to recognize that your buffer files, initialized differently, can potentially influence the condensation process due to the learning behavior imitation schema. To ensure an accurate trajectory imitation with well-parameterized results, please diligently monitor the condensation loss.
+1. It's important to recognize that your buffer files, initialized differently, can potentially influence the condensation process due to the learning behavior imitation schema. To ensure an accurate trajectory imitation with well-parameterized results, please diligently monitor the condensation process with careful p/q setting.
 
 2. The GNTK evaluation section incorporates a validation graph sampling approach to conserve memory. Alternatively, you have the option to employ a fixed full validation graph if your memory resources are sufficient.
 
