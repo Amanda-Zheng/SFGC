@@ -4,7 +4,8 @@ This is the Pytorch implementation of NeurIPS-23 work: "Structure-free Graph Con
 
 The overall framework: 
 
-![Fig_all-6](https://github.com/Amanda-Zheng/SFGC/assets/61812981/156af96a-4709-4f60-9d31-a9d1e1bfbbb0)
+![Fig_all-6](https://github.com/Amanda-Zheng/SFGC/assets/61812981/4e5398f4-a6d2-48f1-92d3-d4b1eb85b9c0)
+
 
 
 ### Requirements
